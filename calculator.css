@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator {
+    background: #09b;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.container form input {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.display { 
+    display: flex;
+    justify-content: end;
+}
+.display input {
+    flex: 1;
+    text-align: right;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-right: 30px;
+}
+#display {
+    height: 5rem;
+}
